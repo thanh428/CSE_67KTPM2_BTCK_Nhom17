@@ -1,0 +1,29 @@
+/* ===== notifications.css — CSS riêng của trang: Thông báo ===== */
+/* ===== Màu và font riêng của HomeFit AI (ghi đè Bootstrap) ===== */
+:root{
+  --bs-primary:#00808f; --bs-primary-rgb:0,128,143;
+  --hf-green:#00c49a; --hf-navy:#04396c; --hf-mint:#e6f6f2; --hf-soft:#f2f6f6; --hf-line:#c8d3d4;
+}
+body{font-family:"Segoe UI",Calibri,Arial,sans-serif;color:#1f2d2e}
+h1,h2,h3,.navbar-brand{font-family:Cambria,Georgia,serif}
+
+/* Nút Bootstrap đổi sang màu thương hiệu */
+.btn-primary{--bs-btn-bg:#00808f;--bs-btn-border-color:#00808f;--bs-btn-hover-bg:#006673;--bs-btn-hover-border-color:#006673;--bs-btn-active-bg:#006673;--bs-btn-active-border-color:#006673}
+.btn-success{--bs-btn-bg:#00c49a;--bs-btn-border-color:#00c49a;--bs-btn-color:#fff;--bs-btn-hover-bg:#00a883;--bs-btn-hover-border-color:#00a883;--bs-btn-hover-color:#fff}
+a{color:#00808f}
+
+/* Thanh menu */
+.navbar-hf{background:#00808f;padding-top:0;padding-bottom:0}
+.navbar-hf .nav-link{color:#dff3f5;display:flex;align-items:center;min-height:56px;padding:0 18px;border-bottom:4px solid transparent}
+.navbar-hf .nav-link.active{color:#fff;font-weight:700;border-bottom-color:#00c49a}
+.avatar{width:32px;height:32px;border-radius:50%;background:#d0ecea;display:inline-block}
+
+/* Khung AI (dùng ở So sánh, Brief, Trợ giúp) */
+.ai-panel{background:var(--hf-mint);border:2px solid #00a995;border-radius:.5rem}
+.ai-tag{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;background:#00a995;color:#fff;font-size:12px;font-weight:700}
+
+/* ----- Phần riêng của trang Thông báo ----- */
+.notice{padding:2rem 1.25rem;border-radius:.5rem!important}
+.notice.unread{background:var(--hf-mint)}
+.notice .dot{width:32px;height:32px;border-radius:50%;background:var(--hf-line);flex-shrink:0}
+.notice.unread .dot{background:#00a995}
