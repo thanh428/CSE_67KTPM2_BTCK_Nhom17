@@ -19,8 +19,21 @@
       <a class="me-3" href="agent-listing-upload.html">Đăng tin</a>
       <a class="me-3" href="agent-lead-management.html">Lead</a>
       <a class="me-3" href="agent-viewing-schedule.html">Lịch hẹn</a>
-      <span class="ms-auto me-3" id="ten-user"></span>
-      <button id="nut-dangxuat" class="btn btn-outline-dark btn-sm">Đăng xuất</button>
+      <a class="ms-auto me-3" href="help.html">Trợ giúp</a>
+      <a class="me-3" href="notifications.html">
+        Thông báo
+        <span class="badge bg-warning text-dark" id="so-thongbao"></span>
+      </a>
+      <div class="dropdown">
+        <button class="btn btn-outline-dark btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          <span id="ten-user"></span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="profile.html">Hồ sơ</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li><button id="nut-dangxuat" class="dropdown-item text-danger" type="button">Đăng xuất</button></li>
+        </ul>
+      </div>
     </nav>
     <div class="container py-4">
       <h2>Chỉnh sửa tin</h2>
