@@ -1,0 +1,966 @@
+{
+ "properties": [
+  {
+   "id": "1",
+   "name": "Căn hộ Cầu Giấy",
+   "district": "Cầu Giấy",
+   "price": 12.5,
+   "area": 45,
+   "bedrooms": 2,
+   "bathrooms": 1,
+   "distanceSchool": 400,
+   "quiet": "Cao",
+   "hasWorkspace": false,
+   "familyFriendly": true,
+   "status": "Đã duyệt",
+   "type": "Căn hộ / Chung cư",
+   "images": [
+    "../assets/images/sample1.jpg"
+   ],
+   "agentEmail": "b.tran@email.com",
+   "description": "Tin mẫu Căn hộ Cầu Giấy",
+   "createdAt": "2026-05-28T03:19:37Z",
+   "history": [
+    "Nháp",
+    "Chờ duyệt",
+    "Đã duyệt"
+   ]
+  },
+  {
+   "id": "2",
+   "name": "Chung cư Hà Đông",
+   "district": "Hà Đông",
+   "price": 9.8,
+   "area": 35,
+   "bedrooms": 1,
+   "bathrooms": 1,
+   "distanceSchool": 1200,
+   "quiet": "Rất cao",
+   "hasWorkspace": true,
+   "familyFriendly": false,
+   "status": "Đã duyệt",
+   "type": "Căn hộ / Chung cư",
+   "images": [
+    "../assets/images/sample1.jpg"
+   ],
+   "agentEmail": "b.tran@email.com",
+   "description": "Tin mẫu Chung cư Hà Đông",
+   "createdAt": "2026-06-27T03:19:37Z",
+   "history": [
+    "Nháp",
+    "Chờ duyệt",
+    "Đã duyệt"
+   ]
+  },
+  {
+   "id": "3",
+   "name": "Nhà Tây Hồ",
+   "district": "Tây Hồ",
+   "price": 14,
+   "area": 55,
+   "bedrooms": 2,
+   "bathrooms": 1,
+   "distanceSchool": 1500,
+   "quiet": "Trung bình",
+   "hasWorkspace": true,
+   "familyFriendly": false,
+   "status": "Đã duyệt",
+   "type": "Nhà phố / Nhà riêng",
+   "images": [
+    "../assets/images/sample1.jpg"
+   ],
+   "agentEmail": "b.tran@email.com",
+   "description": "Tin mẫu Nhà Tây Hồ",
+   "createdAt": "2026-07-27T03:19:37Z",
+   "history": [
+    "Nháp",
+    "Chờ duyệt",
+    "Đã duyệt"
+   ]
+  },
+  {
+   "id": "4",
+   "name": "Nhà phố Long Biên",
+   "district": "Long Biên",
+   "price": 11,
+   "area": 48,
+   "bedrooms": 2,
+   "bathrooms": 1,
+   "distanceSchool": 2100,
+   "quiet": "Trung bình",
+   "hasWorkspace": false,
+   "familyFriendly": false,
+   "status": "Đã duyệt",
+   "type": "Nhà phố / Nhà riêng",
+   "images": [
+    "../assets/images/sample1.jpg"
+   ],
+   "agentEmail": "b.tran@email.com",
+   "description": "Tin mẫu Nhà phố Long Biên",
+   "createdAt": "2026-08-26T03:19:37Z",
+   "history": [
+    "Nháp",
+    "Chờ duyệt",
+    "Đã duyệt"
+   ]
+  },
+  {
+   "id": "5",
+   "name": "Căn hộ Mỹ Đình",
+   "district": "Nam Từ Liêm",
+   "price": 8.5,
+   "area": 32,
+   "bedrooms": 1,
+   "bathrooms": 1,
+   "distanceSchool": 2100,
+   "quiet": "Thấp",
+   "hasWorkspace": false,
+   "familyFriendly": false,
+   "status": "Đã duyệt",
+   "type": "Căn hộ / Chung cư",
+   "images": [
+    "../assets/images/sample1.jpg"
+   ],
+   "agentEmail": "b.tran@email.com",
+   "description": "Tin mẫu Căn hộ Mỹ Đình",
+   "createdAt": "2026-09-15T03:19:37Z",
+   "history": [
+    "Nháp",
+    "Chờ duyệt",
+    "Đã duyệt"
+   ]
+  },
+  {
+   "id": "6",
+   "name": "Căn hộ Cầu Giấy 2",
+   "district": "Cầu Giấy",
+   "price": 13.2,
+   "area": 50,
+   "bedrooms": 2,
+   "bathrooms": 1,
+   "distanceSchool": 2100,
+   "quiet": "Trung bình",
+   "hasWorkspace": false,
+   "familyFriendly": false,
+   "status": "Đã duyệt",
+   "type": "Căn hộ / Chung cư",
+   "images": [
+    "../assets/images/sample1.jpg"
+   ],
+   "agentEmail": "b.tran@email.com",
+   "description": "Tin mẫu Căn hộ Cầu Giấy 2",
+   "createdAt": "2026-10-05T03:19:37Z",
+   "history": [
+    "Nháp",
+    "Chờ duyệt",
+    "Đã duyệt"
+   ]
+  },
+  {
+   "id": "7",
+   "name": "Căn hộ Mỹ Đình 68m²",
+   "district": "Nam Từ Liêm",
+   "price": 12.5,
+   "area": 68,
+   "bedrooms": 2,
+   "bathrooms": 1,
+   "distanceSchool": 400,
+   "quiet": "Cao",
+   "hasWorkspace": true,
+   "familyFriendly": true,
+   "status": "Chờ duyệt",
+   "type": "Căn hộ / Chung cư",
+   "images": [
+    "../assets/images/sample1.jpg"
+   ],
+   "agentEmail": "b.tran@email.com",
+   "description": "Tin mẫu Căn hộ Mỹ Đình 68m²",
+   "createdAt": "2026-10-24T03:19:37Z",
+   "history": [
+    "Nháp",
+    "Chờ duyệt"
+   ]
+  },
+  {
+   "id": "8",
+   "name": "Nhà phố Thanh Xuân",
+   "district": "Thanh Xuân",
+   "price": 10,
+   "area": 40,
+   "bedrooms": 2,
+   "bathrooms": 1,
+   "distanceSchool": 800,
+   "quiet": "Trung bình",
+   "hasWorkspace": false,
+   "familyFriendly": false,
+   "status": "Cần bổ sung",
+   "type": "Nhà phố / Nhà riêng",
+   "images": [],
+   "agentEmail": "b.tran@email.com",
+   "description": "Tin mẫu Nhà phố Thanh Xuân",
+   "createdAt": "2026-10-20T03:19:37Z",
+   "history": [
+    "Nháp",
+    "Chờ duyệt",
+    "Cần bổ sung"
+   ],
+   "reviewNote": "Thiếu ảnh nội thất"
+  },
+  {
+   "id": "9",
+   "name": "Studio Đống Đa",
+   "district": "Đống Đa",
+   "price": 7,
+   "area": 28,
+   "bedrooms": 1,
+   "bathrooms": 1,
+   "distanceSchool": 900,
+   "quiet": "Trung bình",
+   "hasWorkspace": false,
+   "familyFriendly": false,
+   "status": "Nháp",
+   "type": "Studio",
+   "images": [],
+   "agentEmail": "b.tran@email.com",
+   "description": "Tin mẫu Studio Đống Đa",
+   "createdAt": "2026-10-22T03:19:37Z",
+   "history": [
+    "Nháp"
+   ]
+  },
+  {
+   "id": "10",
+   "name": "Villa Tây Hồ",
+   "district": "Tây Hồ",
+   "price": 30,
+   "area": 180,
+   "bedrooms": 4,
+   "bathrooms": 1,
+   "distanceSchool": 1500,
+   "quiet": "Cao",
+   "hasWorkspace": true,
+   "familyFriendly": true,
+   "status": "Từ chối",
+   "type": "Villa / Biệt thự",
+   "images": [
+    "../assets/images/sample1.jpg"
+   ],
+   "agentEmail": "b.tran@email.com",
+   "description": "Tin mẫu Villa Tây Hồ",
+   "createdAt": "2026-10-15T03:19:37Z",
+   "history": [
+    "Nháp",
+    "Chờ duyệt",
+    "Từ chối"
+   ]
+  }
+ ],
+ "users": [
+  {
+   "id": "1",
+   "name": "Nguyễn Văn A",
+   "email": "a.nguyen@email.com",
+   "role": "seeker",
+   "status": "Hoạt động",
+   "password": "123456",
+   "phone": "",
+   "createdAt": "2026-04-28T03:19:37Z"
+  },
+  {
+   "id": "2",
+   "name": "Trần Thị B",
+   "email": "b.tran@email.com",
+   "role": "agent",
+   "status": "Hoạt động",
+   "password": "123456",
+   "phone": "",
+   "createdAt": "2026-05-28T03:19:37Z"
+  },
+  {
+   "id": "3",
+   "name": "Lê Văn C",
+   "email": "c.le@email.com",
+   "role": "moderator",
+   "status": "Hoạt động",
+   "password": "123456",
+   "phone": "",
+   "createdAt": "2026-06-27T03:19:37Z"
+  },
+  {
+   "id": "4",
+   "name": "Quản trị",
+   "email": "admin@homefit.vn",
+   "role": "admin",
+   "status": "Hoạt động",
+   "password": "123456",
+   "phone": "",
+   "createdAt": "2026-02-27T03:19:37Z"
+  }
+ ],
+ "categories": [
+  {
+   "id": "1",
+   "type": "loai",
+   "name": "Căn hộ / Chung cư",
+   "keywords": "",
+   "rule": "",
+   "status": "Hoạt động"
+  },
+  {
+   "id": "2",
+   "type": "loai",
+   "name": "Nhà phố / Nhà riêng",
+   "keywords": "",
+   "rule": "",
+   "status": "Hoạt động"
+  },
+  {
+   "id": "3",
+   "type": "loai",
+   "name": "Studio",
+   "keywords": "",
+   "rule": "",
+   "status": "Hoạt động"
+  },
+  {
+   "id": "4",
+   "type": "loai",
+   "name": "Villa / Biệt thự",
+   "keywords": "",
+   "rule": "",
+   "status": "Hoạt động"
+  },
+  {
+   "id": "5",
+   "type": "nhan",
+   "name": "Gần trường",
+   "keywords": "gần trường, gần đại học, đi bộ tới trường",
+   "rule": "gan-truong",
+   "status": "Hoạt động"
+  },
+  {
+   "id": "6",
+   "type": "nhan",
+   "name": "Yên tĩnh",
+   "keywords": "yên tĩnh, ít ồn, yên",
+   "rule": "yen-tinh",
+   "status": "Hoạt động"
+  },
+  {
+   "id": "7",
+   "type": "nhan",
+   "name": "Có chỗ làm việc",
+   "keywords": "làm việc tại nhà, bàn làm việc",
+   "rule": "lam-viec",
+   "status": "Hoạt động"
+  },
+  {
+   "id": "8",
+   "type": "nhan",
+   "name": "Phù hợp gia đình",
+   "keywords": "gia đình, có con nhỏ",
+   "rule": "gia-dinh",
+   "status": "Hoạt động"
+  }
+ ],
+ "leads": [
+  {
+   "id": "1",
+   "name": "Hoàng Minh",
+   "phone": "0901000001",
+   "need": "2PN, gần trường, yên tĩnh",
+   "source": "Home Brief",
+   "status": "Mới",
+   "note": ""
+  },
+  {
+   "id": "2",
+   "name": "Lê Thu",
+   "phone": "0901000002",
+   "need": "Yên tĩnh, có chỗ làm việc",
+   "source": "Tìm kiếm",
+   "status": "Đang liên hệ",
+   "note": ""
+  },
+  {
+   "id": "3",
+   "name": "Phạm Quang",
+   "phone": "0901000003",
+   "need": "Căn hộ dưới 10 triệu",
+   "source": "Nhập tay",
+   "status": "Đã chốt",
+   "note": ""
+  }
+ ],
+ "viewings": [
+  {
+   "id": "1",
+   "propertyId": "1",
+   "propertyName": "Căn hộ Cầu Giấy",
+   "seekerName": "Nguyễn Văn A",
+   "seekerEmail": "a.nguyen@email.com",
+   "date": "2026-10-26",
+   "time": "14:00",
+   "status": "Đã xác nhận"
+  },
+  {
+   "id": "2",
+   "propertyId": "2",
+   "propertyName": "Chung cư Hà Đông",
+   "seekerName": "Nguyễn Văn A",
+   "seekerEmail": "a.nguyen@email.com",
+   "date": "2026-10-28",
+   "time": "09:30",
+   "status": "Chờ xác nhận"
+  },
+  {
+   "id": "3",
+   "propertyId": "1",
+   "propertyName": "Căn hộ Cầu Giấy",
+   "seekerName": "Hoàng Minh",
+   "seekerEmail": "",
+   "date": "2026-10-29",
+   "time": "10:00",
+   "status": "Chờ xác nhận"
+  },
+  {
+   "id": "4",
+   "propertyId": "2",
+   "propertyName": "Chung cư Hà Đông",
+   "seekerName": "Lê Thu",
+   "seekerEmail": "",
+   "date": "2026-10-24",
+   "time": "15:00",
+   "status": "Hoàn thành"
+  },
+  {
+   "id": "5",
+   "propertyId": "5",
+   "propertyName": "Căn hộ Mỹ Đình",
+   "seekerName": "Phạm Quang",
+   "seekerEmail": "",
+   "date": "2026-10-27",
+   "time": "16:00",
+   "status": "Đã hủy"
+  }
+ ],
+ "reports": [
+  {
+   "id": "1",
+   "code": "RP001",
+   "propertyId": "1",
+   "propertyName": "Căn hộ Cầu Giấy",
+   "reason": "Sai thông tin giá",
+   "reporterEmail": "a.nguyen@email.com",
+   "status": "Đang xử lý",
+   "conclusion": ""
+  },
+  {
+   "id": "2",
+   "code": "RP002",
+   "propertyId": "3",
+   "propertyName": "Nhà Tây Hồ",
+   "reason": "Ảnh không đúng thực tế",
+   "reporterEmail": "user_a2",
+   "status": "Hoàn thành",
+   "conclusion": "Cần thêm thông tin"
+  },
+  {
+   "id": "3",
+   "code": "RP003",
+   "propertyId": "4",
+   "propertyName": "Nhà phố Long Biên",
+   "reason": "Nghi trùng lặp",
+   "reporterEmail": "user_a3",
+   "status": "Mới",
+   "conclusion": ""
+  },
+  {
+   "id": "4",
+   "code": "RP004",
+   "propertyId": "5",
+   "propertyName": "Căn hộ Mỹ Đình",
+   "reason": "Sai thông tin giá",
+   "reporterEmail": "a.nguyen@email.com",
+   "status": "Hoàn thành",
+   "conclusion": "Không hợp lệ"
+  }
+ ],
+ "notifications": [
+  {
+   "id": "1",
+   "userEmail": "a.nguyen@email.com",
+   "text": "AI đã tìm thấy 6 nhà phù hợp với Brief #1 của bạn",
+   "read": false,
+   "createdAt": "2026-10-25T03:14:37Z"
+  },
+  {
+   "id": "2",
+   "userEmail": "a.nguyen@email.com",
+   "text": "Lịch xem Căn hộ Cầu Giấy đã được xác nhận",
+   "read": false,
+   "createdAt": "2026-10-25T01:19:37Z"
+  },
+  {
+   "id": "3",
+   "userEmail": "a.nguyen@email.com",
+   "text": "Căn hộ Cầu Giấy 2 (nhà bạn theo dõi) hiện 13,2 triệu/tháng",
+   "read": false,
+   "createdAt": "2026-10-24T02:19:37Z"
+  },
+  {
+   "id": "4",
+   "userEmail": "a.nguyen@email.com",
+   "text": "Báo cáo RP004 của bạn đã được xử lý: không hợp lệ",
+   "read": true,
+   "createdAt": "2026-10-23T02:59:37Z"
+  },
+  {
+   "id": "5",
+   "userEmail": "b.tran@email.com",
+   "text": "Lead mới: Hoàng Minh (từ Home Brief)",
+   "read": false,
+   "createdAt": "2026-10-25T01:19:37Z"
+  },
+  {
+   "id": "6",
+   "userEmail": "b.tran@email.com",
+   "text": "Tin «Nhà phố Thanh Xuân»: cần bổ sung ảnh nội thất",
+   "read": false,
+   "createdAt": "2026-10-25T02:19:37Z"
+  },
+  {
+   "id": "7",
+   "userEmail": "c.le@email.com",
+   "text": "Có tin mới chờ duyệt: Căn hộ Mỹ Đình 68m²",
+   "read": false,
+   "createdAt": "2026-10-25T03:09:37Z"
+  },
+  {
+   "id": "8",
+   "userEmail": "admin@homefit.vn",
+   "text": "Có 2 báo cáo đang mở",
+   "read": false,
+   "createdAt": "2026-10-25T02:49:37Z"
+  }
+ ],
+ "savedProperties": [
+  {
+   "id": "1",
+   "propertyId": "1",
+   "userEmail": "a.nguyen@email.com",
+   "note": "Gần ĐH, hỏi thêm chỗ gửi xe. AI: yên tĩnh, gần trường 400m; thiếu chỗ làm việc."
+  },
+  {
+   "id": "2",
+   "propertyId": "2",
+   "userEmail": "a.nguyen@email.com",
+   "note": "Rẻ nhất trong 3 nhà, hơi xa trường."
+  },
+  {
+   "id": "3",
+   "propertyId": "3",
+   "userEmail": "a.nguyen@email.com",
+   "note": "Rộng nhưng giá cao, tạm thời so sánh."
+  }
+ ],
+ "briefs": [
+  {
+   "id": "1",
+   "userEmail": "a.nguyen@email.com",
+   "area": "Cầu Giấy",
+   "budget": 14,
+   "bedrooms": 2,
+   "description": "Gần trường đại học, yên tĩnh, cần góc làm việc tại nhà.",
+   "share": true,
+   "status": "Hoạt động"
+  },
+  {
+   "id": "2",
+   "userEmail": "a.nguyen@email.com",
+   "area": "Hà Đông",
+   "budget": 10,
+   "bedrooms": 1,
+   "description": "Gần chỗ làm, giá mềm, yên tĩnh.",
+   "share": false,
+   "status": "Lưu trữ"
+  }
+ ],
+ "aiEvents": [
+  {
+   "id": "1",
+   "ai": "Lifestyle Matcher",
+   "result": "accept"
+  },
+  {
+   "id": "2",
+   "ai": "Lifestyle Matcher",
+   "result": "accept"
+  },
+  {
+   "id": "3",
+   "ai": "Lifestyle Matcher",
+   "result": "accept"
+  },
+  {
+   "id": "4",
+   "ai": "Lifestyle Matcher",
+   "result": "accept"
+  },
+  {
+   "id": "5",
+   "ai": "Lifestyle Matcher",
+   "result": "accept"
+  },
+  {
+   "id": "6",
+   "ai": "Lifestyle Matcher",
+   "result": "accept"
+  },
+  {
+   "id": "7",
+   "ai": "Lifestyle Matcher",
+   "result": "accept"
+  },
+  {
+   "id": "8",
+   "ai": "Lifestyle Matcher",
+   "result": "accept"
+  },
+  {
+   "id": "9",
+   "ai": "Lifestyle Matcher",
+   "result": "accept"
+  },
+  {
+   "id": "10",
+   "ai": "Lifestyle Matcher",
+   "result": "accept"
+  },
+  {
+   "id": "11",
+   "ai": "Lifestyle Matcher",
+   "result": "accept"
+  },
+  {
+   "id": "12",
+   "ai": "Lifestyle Matcher",
+   "result": "accept"
+  },
+  {
+   "id": "13",
+   "ai": "Lifestyle Matcher",
+   "result": "accept"
+  },
+  {
+   "id": "14",
+   "ai": "Lifestyle Matcher",
+   "result": "accept"
+  },
+  {
+   "id": "15",
+   "ai": "Lifestyle Matcher",
+   "result": "accept"
+  },
+  {
+   "id": "16",
+   "ai": "Lifestyle Matcher",
+   "result": "accept"
+  },
+  {
+   "id": "17",
+   "ai": "Lifestyle Matcher",
+   "result": "reject"
+  },
+  {
+   "id": "18",
+   "ai": "Lifestyle Matcher",
+   "result": "reject"
+  },
+  {
+   "id": "19",
+   "ai": "Lifestyle Matcher",
+   "result": "reject"
+  },
+  {
+   "id": "20",
+   "ai": "Lifestyle Matcher",
+   "result": "reject"
+  },
+  {
+   "id": "21",
+   "ai": "Lifestyle Matcher",
+   "result": "reject"
+  },
+  {
+   "id": "22",
+   "ai": "Lifestyle Matcher",
+   "result": "reject"
+  },
+  {
+   "id": "23",
+   "ai": "Lifestyle Matcher",
+   "result": "reject"
+  },
+  {
+   "id": "24",
+   "ai": "Lifestyle Matcher",
+   "result": "error"
+  },
+  {
+   "id": "25",
+   "ai": "Lifestyle Matcher",
+   "result": "error"
+  },
+  {
+   "id": "26",
+   "ai": "Listing Summary",
+   "result": "accept"
+  },
+  {
+   "id": "27",
+   "ai": "Listing Summary",
+   "result": "accept"
+  },
+  {
+   "id": "28",
+   "ai": "Listing Summary",
+   "result": "accept"
+  },
+  {
+   "id": "29",
+   "ai": "Listing Summary",
+   "result": "accept"
+  },
+  {
+   "id": "30",
+   "ai": "Listing Summary",
+   "result": "accept"
+  },
+  {
+   "id": "31",
+   "ai": "Listing Summary",
+   "result": "accept"
+  },
+  {
+   "id": "32",
+   "ai": "Listing Summary",
+   "result": "accept"
+  },
+  {
+   "id": "33",
+   "ai": "Listing Summary",
+   "result": "accept"
+  },
+  {
+   "id": "34",
+   "ai": "Listing Summary",
+   "result": "accept"
+  },
+  {
+   "id": "35",
+   "ai": "Listing Summary",
+   "result": "accept"
+  },
+  {
+   "id": "36",
+   "ai": "Listing Summary",
+   "result": "accept"
+  },
+  {
+   "id": "37",
+   "ai": "Listing Summary",
+   "result": "accept"
+  },
+  {
+   "id": "38",
+   "ai": "Listing Summary",
+   "result": "accept"
+  },
+  {
+   "id": "39",
+   "ai": "Listing Summary",
+   "result": "accept"
+  },
+  {
+   "id": "40",
+   "ai": "Listing Summary",
+   "result": "accept"
+  },
+  {
+   "id": "41",
+   "ai": "Listing Summary",
+   "result": "accept"
+  },
+  {
+   "id": "42",
+   "ai": "Listing Summary",
+   "result": "accept"
+  },
+  {
+   "id": "43",
+   "ai": "Listing Summary",
+   "result": "accept"
+  },
+  {
+   "id": "44",
+   "ai": "Listing Summary",
+   "result": "reject"
+  },
+  {
+   "id": "45",
+   "ai": "Listing Summary",
+   "result": "reject"
+  },
+  {
+   "id": "46",
+   "ai": "Listing Summary",
+   "result": "reject"
+  },
+  {
+   "id": "47",
+   "ai": "Listing Summary",
+   "result": "reject"
+  },
+  {
+   "id": "48",
+   "ai": "Listing Summary",
+   "result": "reject"
+  },
+  {
+   "id": "49",
+   "ai": "Listing Summary",
+   "result": "reject"
+  },
+  {
+   "id": "50",
+   "ai": "Listing Summary",
+   "result": "error"
+  },
+  {
+   "id": "51",
+   "ai": "Listing Summary",
+   "result": "error"
+  },
+  {
+   "id": "52",
+   "ai": "Comparison Assistant",
+   "result": "accept"
+  },
+  {
+   "id": "53",
+   "ai": "Comparison Assistant",
+   "result": "accept"
+  },
+  {
+   "id": "54",
+   "ai": "Comparison Assistant",
+   "result": "accept"
+  },
+  {
+   "id": "55",
+   "ai": "Comparison Assistant",
+   "result": "accept"
+  },
+  {
+   "id": "56",
+   "ai": "Comparison Assistant",
+   "result": "accept"
+  },
+  {
+   "id": "57",
+   "ai": "Comparison Assistant",
+   "result": "accept"
+  },
+  {
+   "id": "58",
+   "ai": "Comparison Assistant",
+   "result": "accept"
+  },
+  {
+   "id": "59",
+   "ai": "Comparison Assistant",
+   "result": "accept"
+  },
+  {
+   "id": "60",
+   "ai": "Comparison Assistant",
+   "result": "accept"
+  },
+  {
+   "id": "61",
+   "ai": "Comparison Assistant",
+   "result": "accept"
+  },
+  {
+   "id": "62",
+   "ai": "Comparison Assistant",
+   "result": "accept"
+  },
+  {
+   "id": "63",
+   "ai": "Comparison Assistant",
+   "result": "accept"
+  },
+  {
+   "id": "64",
+   "ai": "Comparison Assistant",
+   "result": "accept"
+  },
+  {
+   "id": "65",
+   "ai": "Comparison Assistant",
+   "result": "accept"
+  },
+  {
+   "id": "66",
+   "ai": "Comparison Assistant",
+   "result": "reject"
+  },
+  {
+   "id": "67",
+   "ai": "Comparison Assistant",
+   "result": "reject"
+  },
+  {
+   "id": "68",
+   "ai": "Comparison Assistant",
+   "result": "reject"
+  },
+  {
+   "id": "69",
+   "ai": "Comparison Assistant",
+   "result": "reject"
+  },
+  {
+   "id": "70",
+   "ai": "Comparison Assistant",
+   "result": "reject"
+  },
+  {
+   "id": "71",
+   "ai": "Comparison Assistant",
+   "result": "reject"
+  },
+  {
+   "id": "72",
+   "ai": "Comparison Assistant",
+   "result": "reject"
+  },
+  {
+   "id": "73",
+   "ai": "Comparison Assistant",
+   "result": "reject"
+  },
+  {
+   "id": "74",
+   "ai": "Comparison Assistant",
+   "result": "error"
+  },
+  {
+   "id": "75",
+   "ai": "Comparison Assistant",
+   "result": "error"
+  }
+ ]
+}
