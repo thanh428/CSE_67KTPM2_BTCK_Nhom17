@@ -1,0 +1,8 @@
+/* CSS dùng chung: màu, font, thanh menu */
+:root { --xanh: #16302b; --xanh2: #1f5c4d; --vang: #f2b53a; --nen: #eaf0ee; }
+body { font-family: Inter, Arial, sans-serif; background: var(--nen); color: var(--xanh); }
+.logo { font-weight: 800; color: var(--xanh2); text-decoration: none; }
+.logo span { background: var(--vang); border-radius: 6px; padding: 0 6px; font-size: 12px; }
+.btn-xanh { background: var(--xanh2); color: #fff; border: 0; }
+.btn-xanh:hover { background: var(--xanh); color: #fff; }
+.thong-bao { min-height: 40px; }

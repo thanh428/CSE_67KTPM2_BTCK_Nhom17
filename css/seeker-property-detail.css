@@ -1,0 +1,8 @@
+.ai-khung { background: #fcefc9; border-left: 5px solid #f2b53a; border-radius: 10px; padding: 16px; }
+.dat { color: #1f7a5c; } .chua { color: #8a8a8a; }
+.dat::before { content: "+ "; font-weight: 700; } .chua::before { content: "- "; font-weight: 700; }
+.loi { color: #b3261e; font-size: 13px; min-height: 16px; }
+.anh-lon { width: 100%; height: 280px; object-fit: cover; border-radius: 10px; display: block; }
+.anh-nho { width: 80px; height: 60px; object-fit: cover; border-radius: 6px; cursor: pointer; border: 2px solid transparent; }
+.anh-nho:hover { border-color: #f2b53a; }
+.khong-anh { background: #e3ece9; color: #6b7d78; display: flex; align-items: center; justify-content: center; }
