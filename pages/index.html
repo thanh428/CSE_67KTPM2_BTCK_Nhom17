@@ -1,23 +1,62 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="HomeFit AI - khám phá nhà thuê theo nhu cầu sống">
-  <title>HomeFit AI – Khám phá nhà thuê</title>
-  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/common.css" rel="stylesheet">
-  <link href="css/index.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HomeFit AI - Trang chủ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
-  <div id="app"></div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="../js/seed-data.js"></script>
-  <script src="../js/storage.js"></script>
-  <script src="../js/auth.js"></script>
-  <script src="../js/ui.js"></script>
-  <script src="../js/ai.js"></script>
-  <script src="../js/index.js"></script>
+    <nav class="navbar bg-white border-bottom px-4">
+        <a class="logo me-4" href="index.html">HomeFit <span>AI</span></a>
+        <a class="me-3" href="login.html">Đăng nhập</a>
+        <a class="me-3" href="register.html">Đăng ký</a>
+        <a class="me-3" href="help.html">Trợ giúp</a>
+    </nav>
+    <header class="hero">
+        <div class="container">
+            <h1>Tìm nhà theo cách bạn sống, không chỉ theo giá</h1>
+            <p>Kể nhu cầu bằng lời của bạn. HomeFit chấm điểm mức hợp và nói rõ vì sao.</p>
+            <form id="form-tim" class="d-flex gap-2 mt-3">
+                <input id="o-tim" class="form-control" placeholder="Ví dụ: gần trường, yên tĩnh, dưới 14 triệu ở Cầu Giấy">
+                <button class="btn btn-warning text-nowrap">Tìm nhà hợp với tôi</button>
+            </form>
+        </div>
+    </header>
+    <div class="container py-4">
+        <div class="row g-3">
+            <div class="col-md-3">
+                <div class="the">
+                    <h5>Tôi đang tìm nhà</h5>
+                    <p>Tìm, lưu và so sánh nhà theo nhu cầu sống</p>
+                    <a class="btn btn-xanh" href="login.html">Bắt đầu tìm nhà</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="the">
+                    <h5>Tôi là môi giới</h5>
+                    <p>Đăng tin, theo dõi khách và lịch xem nhà</p>
+                    <a class="btn btn-xanh" href="login.html">Vào khu môi giới</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="the">
+                    <h5>Tôi kiểm duyệt tin</h5>
+                    <p>Duyệt tin đăng và xử lý báo cáo</p>
+                    <a class="btn btn-xanh" href="login.html">Vào khu kiểm duyệt</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="the">
+                    <h5>Tôi quản trị hệ thống</h5>
+                    <p>Quản lý danh mục và tài khoản</p>
+                    <a class="btn btn-xanh" href="login.html">Vào khu quản trị</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/index.js"></script>
 </body>
 </html>

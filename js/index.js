@@ -1,10 +1,6 @@
-// 1. Lấy phần tử
-const homeApp = document.querySelector('#app');
-
-// 2. Các hàm
-function khoiTaoTrangChu() {
-  HomeFitUI.initPage('index');
-}
-
-// 3. Gắn sự kiện + chạy khi tải trang
-if (homeApp) khoiTaoTrangChu();
+// Ô tìm kiếm chuyển sang trang Tìm nhà kèm từ khóa (?q=)
+document.querySelector("#form-tim").addEventListener("submit", function (event) {
+  event.preventDefault();
+  const q = document.querySelector("#o-tim").value.trim();
+  window.location.href = "login.html?next=" + encodeURIComponent("seeker-property-search.html?q=" + q);
+});

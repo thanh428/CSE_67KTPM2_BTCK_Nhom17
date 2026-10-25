@@ -1,2 +1,2 @@
-.page-heading { border-bottom: 1px solid var(--hf-border); padding-bottom: .75rem; }
-
+.khung { max-width: 460px; margin: 30px auto; padding: 0 12px; }
+.loi { color: #b3261e; font-size: 13px; min-height: 18px; }
