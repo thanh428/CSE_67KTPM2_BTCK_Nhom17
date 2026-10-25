@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Trung tâm báo cáo - HomeFit AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/moderator-report-center.css" />
+  </head>
+  <body>
+    <nav class="navbar bg-white border-bottom px-4">
+      <a class="logo me-4" href="moderator-listing-review.html">
+        HomeFit
+        <span>AI</span>
+      </a>
+      <a class="me-3" href="moderator-listing-review.html">Duyệt listing</a>
+      <a class="me-3" href="moderator-report-center.html">Report</a>
+      <a class="me-3" href="moderator-data-quality.html">Chất lượng DL</a>
+      <a class="ms-auto me-3" href="help.html">Trợ giúp</a>
+      <a class="me-3" href="notifications.html">
+        Thông báo
+        <span class="badge bg-warning text-dark" id="so-thongbao"></span>
+      </a>
+      <div class="dropdown">
+        <button class="btn btn-outline-dark btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          <span id="ten-user"></span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="profile.html">Hồ sơ</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li><button id="nut-dangxuat" class="dropdown-item text-danger" type="button">Đăng xuất</button></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container py-4">
+      <h2>Trung tâm báo cáo</h2>
+      <p>Báo cáo từ người dùng về tin đăng</p>
+      <div class="card p-3 mb-3">
+        <b>Tạo report thủ công</b>
+        <div class="row g-2 mt-1">
+          <div class="col-md-4"><select id="r-nha" class="form-select"></select></div>
+          <div class="col-md-5"><input id="r-lydo" class="form-control" placeholder="Lý do" /></div>
+          <div class="col-md-3"><button id="nut-tao" class="btn btn-xanh w-100">Tạo report</button></div>
+        </div>
+        <div class="loi" id="loi-tao"></div>
+      </div>
+      <select id="loc-tt" class="form-select w-auto mb-3">
+        <option value="">Tất cả</option>
+        <option>Mới</option>
+        <option>Đang xử lý</option>
+        <option>Hoàn thành</option>
+      </select>
+      <div id="thong-bao"></div>
+      <div id="state-loading" class="d-none">Đang tải dữ liệu...</div>
+      <div id="state-empty" class="d-none alert alert-warning"></div>
+      <div id="state-error" class="d-none alert alert-danger">
+        <span id="error-text"></span>
+        <button id="nut-thulai" class="btn btn-sm btn-outline-danger ms-2">Thử lại</button>
+      </div>
+      <div id="list" class="d-none table-responsive">
+        <table class="table bg-white">
+          <thead>
+            <tr>
+              <th>Mã</th>
+              <th>Listing</th>
+              <th>Lý do</th>
+              <th>Người báo cáo</th>
+              <th>Trạng thái</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="bang"></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="modal fade" id="modal-xl" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 id="m-tieude"></h5>
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <p id="m-lydo"></p>
+            <b>Kết luận</b>
+            <div>
+              <label>
+                <input type="radio" name="kl" value="Hợp lệ" checked />
+                Hợp lệ (ẩn listing)
+              </label>
+            </div>
+            <div>
+              <label>
+                <input type="radio" name="kl" value="Không hợp lệ" />
+                Không hợp lệ
+              </label>
+            </div>
+            <div>
+              <label>
+                <input type="radio" name="kl" value="Cần thêm thông tin" />
+                Cần thêm thông tin
+              </label>
+            </div>
+            <label class="fw-bold mt-2" for="m-ghichu">Ghi chú xử lý (bắt buộc)</label>
+            <textarea id="m-ghichu" class="form-control"></textarea>
+            <div class="loi" id="loi-modal"></div>
+          </div>
+          <div class="modal-footer">
+            <button id="nut-xacnhan" class="btn btn-xanh">Xác nhận</button>
+            <button class="btn btn-outline-secondary" data-bs-dismiss="modal">Đóng</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/api-config.js"></script>
+    <script src="../js/api.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/moderator-report-center.js"></script>
+  </body>
+</html>
