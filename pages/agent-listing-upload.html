@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Đăng tin mới - HomeFit AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/agent-listing-upload.css" />
+  </head>
+  <body>
+    <nav class="navbar bg-white border-bottom px-4">
+      <a class="logo me-4" href="agent-dashboard.html">
+        HomeFit
+        <span>AI</span>
+      </a>
+      <a class="me-3" href="agent-dashboard.html">Tổng quan</a>
+      <a class="me-3" href="agent-listing-management.html">Listing</a>
+      <a class="me-3" href="agent-listing-upload.html">Đăng tin</a>
+      <a class="me-3" href="agent-lead-management.html">Lead</a>
+      <a class="me-3" href="agent-viewing-schedule.html">Lịch hẹn</a>
+      <span class="ms-auto me-3" id="ten-user"></span>
+      <button id="nut-dangxuat" class="btn btn-outline-dark btn-sm">Đăng xuất</button>
+    </nav>
+    <div class="container py-4">
+      <h2>Đăng tin mới</h2>
+      <p>Điền thông tin, thêm ảnh rồi gửi duyệt</p>
+      <div id="thong-bao"></div>
+      <div class="card p-3">
+        <h5>Thông tin bất động sản</h5>
+        <div class="row g-2">
+          <div class="col-md-4">
+            <label class="fw-bold" for="f-ten">Tên tin</label>
+            <input id="f-ten" class="form-control" placeholder="Ví dụ: Căn hộ Cầu Giấy" />
+            <div class="loi" id="loi-ten"></div>
+          </div>
+          <div class="col-md-4">
+            <label class="fw-bold" for="f-loai">Loại BĐS (từ danh mục admin)</label>
+            <select id="f-loai" class="form-select">
+              <option value="">Chọn loại</option>
+            </select>
+          </div>
+          <div class="col-md-4">
+            <label class="fw-bold" for="f-gia">Giá (triệu/tháng)</label>
+            <input id="f-gia" type="number" class="form-control" placeholder="12.5" />
+            <div class="loi" id="loi-gia"></div>
+          </div>
+          <div class="col-md-4">
+            <label class="fw-bold" for="f-dt">Diện tích (m²)</label>
+            <input id="f-dt" type="number" class="form-control" />
+            <div class="loi" id="loi-dt"></div>
+          </div>
+          <div class="col-md-4">
+            <label class="fw-bold" for="f-quan">Quận / Địa chỉ</label>
+            <input id="f-quan" class="form-control" />
+            <div class="loi" id="loi-quan"></div>
+          </div>
+          <div class="col-md-4">
+            <label class="fw-bold" for="f-kc">Khoảng cách tới trường (km)</label>
+            <input id="f-kc" type="number" step="0.1" min="0" class="form-control" />
+          </div>
+          <div class="col-md-4">
+            <label class="fw-bold" for="f-pn">Phòng ngủ</label>
+            <input id="f-pn" type="number" class="form-control" value="1" />
+          </div>
+          <div class="col-md-4">
+            <label class="fw-bold" for="f-pt">Phòng tắm</label>
+            <input id="f-pt" type="number" class="form-control" value="1" />
+          </div>
+          <div class="col-md-4">
+            <label class="fw-bold" for="f-yen">Mức yên tĩnh</label>
+            <select id="f-yen" class="form-select">
+              <option>Rất cao</option>
+              <option>Cao</option>
+              <option selected>Trung bình</option>
+              <option>Thấp</option>
+            </select>
+          </div>
+        </div>
+        <p class="fw-bold mt-3 mb-1">Nhãn nhu cầu</p>
+        <label class="me-3">
+          <input type="checkbox" id="f-lamviec" />
+          Có chỗ làm việc
+        </label>
+        <label class="me-3">
+          <input type="checkbox" id="f-giadinh" />
+          Phù hợp gia đình
+        </label>
+        <label class="fw-bold mt-3" for="f-mota">Mô tả</label>
+        <textarea id="f-mota" class="form-control" rows="2"></textarea>
+        <label class="fw-bold mt-3" for="f-anh">Ảnh (tối đa 3, JPG/PNG)</label>
+        <input id="f-anh" type="file" class="form-control" accept=".jpg,.jpeg,.png" multiple />
+        <div class="loi" id="loi-anh"></div>
+        <div id="xem-truoc" class="d-flex flex-wrap gap-2 mt-2"></div>
+        <small>Ảnh được thu nhỏ rồi lưu cùng tin. Tối đa 3 ảnh.</small>
+      </div>
+      <div class="mt-3">
+        <button id="nut-nhap" class="btn btn-outline-dark">Lưu nháp</button>
+        <button id="nut-gui" class="btn btn-xanh">Gửi duyệt</button>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/api-config.js"></script>
+    <script src="../js/api.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/listing-form.js"></script>
+    <script src="../js/agent-listing-upload.js"></script>
+  </body>
+</html>
