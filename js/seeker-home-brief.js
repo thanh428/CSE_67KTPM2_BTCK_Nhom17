@@ -75,7 +75,7 @@ async function chayAI(event) {
     vung.innerHTML = "Đã hủy.";
   });
   timer = setTimeout(async function () {
-    if (document.querySelector("#gia-loi").checked) {
+   if (document.querySelector("#gia-loi") !== null && document.querySelector("#gia-loi").checked) {
       vung.innerHTML = 'Không thể xử lý yêu cầu lúc này. <button id="nut-thu" class="btn btn-sm btn-outline-dark">Thử lại</button>';
       document.querySelector("#nut-thu").addEventListener("click", chayAI);
       return;

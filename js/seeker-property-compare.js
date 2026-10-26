@@ -92,7 +92,7 @@ function chayAI() {
   vung.innerHTML = 'AI đang xử lý... <button id="nut-huy" class="btn btn-sm btn-outline-dark">Hủy</button>';
   document.querySelector("#nut-huy").addEventListener("click", function () { clearTimeout(timer); vung.innerHTML = "Đã hủy."; });
   timer = setTimeout(function () {
-    if (document.querySelector("#gia-loi").checked) {
+   if (document.querySelector("#gia-loi") !== null && document.querySelector("#gia-loi").checked) {
       vung.innerHTML = 'Không thể xử lý yêu cầu lúc này. <button id="nut-thu" class="btn btn-sm btn-outline-dark">Thử lại</button>';
       document.querySelector("#nut-thu").addEventListener("click", chayAI);
       return;
