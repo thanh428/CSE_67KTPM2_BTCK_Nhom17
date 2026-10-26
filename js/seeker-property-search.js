@@ -83,6 +83,7 @@ async function taiDuLieu() {
   showState("loading");
   try {
     danhSachNha = await getAll("properties");
+    document.querySelector("#o-tim").placeholder = "🔍 Tìm kiếm nhanh trong tổng số " + danhSachNha.length + " căn nhà...";
     locNha();
   } catch (loi) {
     showState("error", loi.message);

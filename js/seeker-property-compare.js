@@ -40,6 +40,7 @@ function giaTriNha(n, key) {
 
 function veBang() {
   const nhaChon = tatCaNha.filter(function (n) { return daChon.includes(n.id); });
+  document.querySelector("h3").textContent = "📊 Bảng so sánh chi tiết (" + nhaChon.length + " căn nhà)";
   document.querySelector("#bang-dau").innerHTML = "<tr><th>Tiêu chí</th>" + nhaChon.map(function (n) { return "<th>" + n.name + "</th>"; }).join("") + "</tr>";
   const tbody = document.querySelector("#bang");
   tbody.innerHTML = "";
