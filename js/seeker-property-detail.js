@@ -69,6 +69,11 @@ async function luuNha() {
   try {
     await create("savedProperties", { propertyId: nha.id, userEmail: "a.nguyen@email.com", note: "" });
     document.querySelector("#thong-bao").innerHTML = '<div class="alert alert-success">Đã lưu nhà.</div>';
+    const nutLuu = document.querySelector("#nut-luu");
+    nutLuu.textContent = "✓ Đã lưu";
+    nutLuu.classList.remove("btn-outline-success");
+    nutLuu.classList.add("btn-success");
+    nutLuu.disabled = true;
   } catch (loi) {
     document.querySelector("#thong-bao").innerHTML = '<div class="alert alert-danger">' + loi.message + "</div>";
   }
