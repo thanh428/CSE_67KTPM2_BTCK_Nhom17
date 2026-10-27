@@ -9,7 +9,7 @@ function tinhDiem(nha) {
   if (nha.distanceSchool <= 500) diem += 30;
   if (nha.quiet === "Cao" || nha.quiet === "Rất cao") diem += 25;
   if (nha.hasWorkspace) diem += 20;
-  if (nha.price <= 14) diem += 15;
+  if (nha.price <= 14) diem += 25;
   return diem;
 }
 
