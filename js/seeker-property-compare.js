@@ -40,6 +40,7 @@ function giaTriNha(n, key) {
 
 function veBang() {
   const nhaChon = tatCaNha.filter(function (n) { return daChon.includes(n.id); });
+  document.querySelector("h3").textContent = " Bảng so sánh chi tiết (" + nhaChon.length + " căn nhà)";
   document.querySelector("#bang-dau").innerHTML = "<tr><th>Tiêu chí</th>" + nhaChon.map(function (n) { return "<th>" + n.name + "</th>"; }).join("") + "</tr>";
   const tbody = document.querySelector("#bang");
   tbody.innerHTML = "";
@@ -110,7 +111,7 @@ function chayAI() {
     document.querySelector("#nut-sua").addEventListener("click", function () { document.querySelector(".o-ts").focus(); });
     document.querySelector("#nut-tuchoi").addEventListener("click", function () { vung.innerHTML = "Đã từ chối kết quả."; });
     document.querySelector("#nut-taolai").addEventListener("click", chayAI);
-  }, 1500);
+  }, 500);
 }
 
 // Lưu kết quả xếp hạng + trọng số (lưu vào resource notifications để xem lại)
