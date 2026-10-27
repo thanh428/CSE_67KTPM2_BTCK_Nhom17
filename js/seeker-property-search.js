@@ -5,11 +5,11 @@ let danhSachNha = []; // dữ liệu lấy từ MockAPI
 
 // AI1 mô phỏng: chấm điểm theo quy tắc đơn giản (không dùng số ngẫu nhiên)
 function tinhDiem(nha) {
-  let diem = 50;
-  if (nha.distanceSchool <= 500) diem += 20;
-  if (nha.quiet === "Cao" || nha.quiet === "Rất cao") diem += 15;
-  if (nha.hasWorkspace) diem += 10;
-  if (nha.price <= 14) diem += 5;
+  let diem = 0;
+  if (nha.distanceSchool <= 500) diem += 30;
+  if (nha.quiet === "Cao" || nha.quiet === "Rất cao") diem += 25;
+  if (nha.hasWorkspace) diem += 20;
+  if (nha.price <= 14) diem += 15;
   return diem;
 }
 
@@ -83,6 +83,7 @@ async function taiDuLieu() {
   showState("loading");
   try {
     danhSachNha = await getAll("properties");
+    document.querySelector("#o-tim").placeholder = " Tìm kiếm nhanh trong tổng số " + danhSachNha.length + " căn nhà...";
     locNha();
   } catch (loi) {
     showState("error", loi.message);
